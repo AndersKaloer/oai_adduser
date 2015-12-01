@@ -21,9 +21,9 @@ PGW_IPV4_VAL = '10.0.0.2'
 PGW_IPV6_VAL = '0'
 
 help_str = """Example usage:
-./oai_adduser.py --imsi=208930000000008 \
---msisdn=88211005938 --ki=2DC204753BEA70DC8F010A4DFEDCEE33 \
---opc=bfa1d8864980a90313f0560144f97a74
+./oai_adduser.py --imsi=208930000000001 \
+--msisdn=33638060010 --ki=8BAF473F2F8FD09487CCCBD7097C6862 \
+--opc=8E27B6AF0E692E750F32667A3B14605D
 """
 
 parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter,
